@@ -2,7 +2,16 @@
 
 **Task1 - Designing a Convolution Module for Variable Input Channels**
 
-[Checkpoints - Dynamic weight-generating network](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing)
+[Checkpoints - Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing)
+
+
+
+**Performance and Complexity comparison on mini-ImageNet. Mulit-Adds are calculated for a 3x224x224 input.**
+| Model | Params | Multi-Adds | Forward | FLOPs | Accuracy | Precision | Recall | f1-score |
+|:-----------:|:---------:|:-------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing) |   32.84M    | 14.13G | 174.19M | 2.65 G | 76.00% | 76.61% | 76.00% | 75.20% |\
+| [Dynamic weight-generating network with DenseNet-121 (Channel Shuffling Augmentation)](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing) |  32.84M  | 14.13G | 174.19M | 2.65 G | 76.00% | 76.61% | 76.00% | 75.20% |
+
 
 **Task2 - Designing a Convolution Module for Variable Input Channels**
 
