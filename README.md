@@ -37,9 +37,9 @@ Mulit-Adds are calculated for a 3x224x224 input.**
 
 [mini-ImageNet Dataset](https://cchsu.info/files/images.zip)
 
-Change the path configuration for all `.py`.
+Change the path configuration for all `.py` files.
 
-Download the mini-ImageNet dataset, unzip its, and put all of data on `.\images`, then:
+Download the mini-ImageNet dataset, unzip its, and put them on `.\images`, then:
 ```
 python train_dw.py
 ```
