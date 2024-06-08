@@ -25,7 +25,9 @@ Design a special convolutional module that is spatial size invariant and can han
 
 ## Task2 - Designing a Convolution Module for Variable Input Channels
 
+
 Design a (2-4)-layer CNN, Transformer, or RNN network that can achieve 90% performance of ResNet34 on ImageNet-mini (i.e., with no more than 10% performance loss). There are no restrictions on parameter count or FLOPS, but the maximum number of input and output layers is limited to 4-6. Explain the design principles, references, and provide experimental results. We suggest you DO NOT use pre-trained models for ResNet34.
+
 
 # Checkpoints:
 [Checkpoints - ResNet34](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
