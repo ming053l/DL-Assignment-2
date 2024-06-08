@@ -4,7 +4,12 @@
 
 ## Task1 - Designing a Convolution Module for Variable Input Channels
 
-[Checkpoints - Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing)
+Design a special convolutional module that is spatial size invariant and can handle an arbitrary number of input channels. You only need to design this special module, not every layer of the CNN. After designing, explain the design principles, references, additional costs (such as FLOPS or #PARAMS), and compare with naive models. To simulate the practicality of your method, use the ImageNet-mini dataset for training, and during the inference process, test images with various channel combinations (such as RGB, RG, GB, R, G, B, etc.) and compare the performance.
+
+# Checkpoints:
+
+[Checkpoints - DWG with DenseNet-121](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
+[Checkpoints - DWG with DenseNet-121 (Channel Shuffling Augmentation](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
 
 **Performance and Complexity comparison on mini-ImageNet (Testing-set). Mulit-Adds are calculated for a 3x224x224 input.**
 | Model | Params | Multi-Adds | Forward | FLOPs | Accuracy | Precision | Recall | f1-score |
@@ -20,13 +25,11 @@
 
 ## Task2 - Designing a Convolution Module for Variable Input Channels
 
-# Baseline:
+Design a (2-4)-layer CNN, Transformer, or RNN network that can achieve 90% performance of ResNet34 on ImageNet-mini (i.e., with no more than 10% performance loss). There are no restrictions on parameter count or FLOPS, but the maximum number of input and output layers is limited to 4-6. Explain the design principles, references, and provide experimental results. We suggest you DO NOT use pre-trained models for ResNet34.
+
+# Checkpoints:
 [Checkpoints - ResNet34](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
-
-# Q2-1:
 [Checkpoints - RRDB](https://drive.google.com/file/d/1Wa5fsheFg95qoBxrXBLmUT4KASdz5yjs/view?usp=sharing)
-
-# Q2-2:
 [Checkpoints - RRDB_RNN](https://drive.google.com/file/d/1qGkMu-ePu2W2EttpEi3Em9R37So3hqLg/view?usp=sharing)
 
 **Performance and Complexity comparison on mini-ImageNet (Testing-set) without pretraining on ImageNet-1K. 
