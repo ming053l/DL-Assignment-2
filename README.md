@@ -1,6 +1,6 @@
 ## DL-Assignment-2
 
-**Task1 - Designing a Convolution Module for Variable Input Channels**
+# Task1 - Designing a Convolution Module for Variable Input Channels
 
 [Checkpoints - Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing)
 
@@ -13,7 +13,7 @@
 | [Dynamic weight-generating network with DenseNet-121 (Channel Shuffling Augmentation)](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing) |  32.84M  | 14.13G | 174.19M | 2.65 G | 76.00% | 76.61% | 76.00% | 75.20% |
 
 
-**Task2 - Designing a Convolution Module for Variable Input Channels**
+# Task2 - Designing a Convolution Module for Variable Input Channels
 
 #Baseline:
 [Checkpoints - ResNet34](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
@@ -35,7 +35,7 @@ Mulit-Adds are calculated for a 3x224x224 input.**
 
 # Usage
 
-[Dataset](https://cchsu.info/files/images.zip)
+[mini-ImageNet Dataset](https://cchsu.info/files/images.zip)
 
 Download the mini-ImageNet dataset and unzip its and put all of data on `.\images`, then:
 ```
