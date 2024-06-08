@@ -35,11 +35,24 @@ Mulit-Adds are calculated for a 3x224x224 input.**
 
 ## Usage
 
-[mini-ImageNet Dataset](https://cchsu.info/files/images.zip)
+Download the [mini-ImageNet](https://cchsu.info/files/images.zip) dataset, unzip its, and put them on `.\images`, then
 
 Change the path configuration for all `.py` files.
 
-Download the mini-ImageNet dataset, unzip its, and put them on `.\images`, then:
 ```
 python train_dw.py
 ```
+
+
+## Environment
+
+```
+conda create --name assignment python=3.8 -y
+conda activate assignment
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+conda install scikit-learn tqdm pandas torchinfo torchprofile pillow
+```
+
+## Contact
+
+If you have any question, please feel free to contact the author via [zuw408421476@gmail.com].
