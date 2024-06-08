@@ -15,7 +15,8 @@
 #Q2-2:
 [Checkpoints - RRDB_RNN](https://drive.google.com/file/d/1qGkMu-ePu2W2EttpEi3Em9R37So3hqLg/view?usp=sharing)
 
-**Performance and Complexity comparison on mini-ImageNet without pretraining on ImageNet-1K. Mulit-Adds are calculated for a 3x224x224 input.**
+**Performance and Complexity comparison on mini-ImageNet without pretraining on ImageNet-1K. 
+Mulit-Adds are calculated for a 3x224x224 input.**
 | Model | Params | Multi-Adds | Forward | FLOPs | Accuracy | Precision | Recall | f1-score |
 |:-----------:|:---------:|:-------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [ResNet34](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing) |   90.16M    | 3.66G | 59.81M | 3.41 G | 26.67% | 11.81% | 26.67% | 15.83% |
