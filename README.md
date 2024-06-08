@@ -9,6 +9,7 @@ Design a special convolutional module that is spatial size invariant and can han
 ## Checkpoints:
 
 [Checkpoints - DWG with DenseNet-121](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
+
 [Checkpoints - DWG with DenseNet-121 (Channel Shuffling Augmentation](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
 
 **Performance and Complexity comparison on mini-ImageNet (Testing-set). Mulit-Adds are calculated for a 3x224x224 input.**
@@ -30,8 +31,11 @@ Design a (2-4)-layer CNN, Transformer, or RNN network that can achieve 90% perfo
 
 
 ## Checkpoints:
+
 [Checkpoints - ResNet34](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
+
 [Checkpoints - RRDB](https://drive.google.com/file/d/1Wa5fsheFg95qoBxrXBLmUT4KASdz5yjs/view?usp=sharing)
+
 [Checkpoints - RRDB_RNN](https://drive.google.com/file/d/1qGkMu-ePu2W2EttpEi3Em9R37So3hqLg/view?usp=sharing)
 
 **Performance and Complexity comparison on mini-ImageNet (Testing-set) without pretraining on ImageNet-1K. 
