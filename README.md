@@ -1,4 +1,4 @@
-# Dynamic Weight Generation Conv / RRDB-RNN
+# Dynamic Weight Generation Convolution / RRDB-RNN
 
 The pytorch implementation of Dynamic Weight Generation Convolution / RRDB-RNN for Deep Learning Assignment II in NCKU.
 
