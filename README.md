@@ -1,5 +1,7 @@
 # DL-Assignment-2
 
+[Report for this Assignment](https://drive.google.com/file/d/14Ppg4bplJ4vF4cHtvGvWguA-b2pV_-Se/view?usp=sharing)
+
 ## Task1 - Designing a Convolution Module for Variable Input Channels
 
 [Checkpoints - Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing)
