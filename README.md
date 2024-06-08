@@ -32,14 +32,15 @@ Mulit-Adds are calculated for a 3x224x224 input.**
 | [RRDB_RNN](https://drive.google.com/file/d/1qGkMu-ePu2W2EttpEi3Em9R37So3hqLg/view?usp=sharing) |  0.30M  | 0.42G | 20.07M | 0.39G | 42.67% | 46.73% | 42.67% | 41.33% |
 
 
-## Usage
+## Usage (Easy to Reproduce)
 
 Download the [mini-ImageNet](https://cchsu.info/files/images.zip) dataset, unzip its, and put them on `.\images`, then
 
-Change the path configuration for all `.py` files.
+Change the path configuration for all `.py` files. 
 
 ```
 python train_dw.py
+python test_dw.py
 ```
 
 
