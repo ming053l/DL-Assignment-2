@@ -1,6 +1,6 @@
 # DL-Assignment-2
 
-[Report for this Assignment](https://drive.google.com/file/d/14Ppg4bplJ4vF4cHtvGvWguA-b2pV_-Se/view?usp=sharing)
+[Assignment](https://drive.google.com/file/d/1SWX1KvwGB-Kphk4GiIEB0ibmytCk3HK9/view?usp=sharing) [Report for this Assignment](https://drive.google.com/file/d/14Ppg4bplJ4vF4cHtvGvWguA-b2pV_-Se/view?usp=sharing)
 
 # Task1 - Designing a Convolution Module for Variable Input Channels
 
