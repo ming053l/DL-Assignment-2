@@ -6,7 +6,7 @@
 
 [Checkpoints - Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing)
 
-**Performance and Complexity comparison on mini-ImageNet. Mulit-Adds are calculated for a 3x224x224 input.**
+**Performance and Complexity comparison on mini-ImageNet (Testing-set). Mulit-Adds are calculated for a 3x224x224 input.**
 | Model | Params | Multi-Adds | Forward | FLOPs | Accuracy | Precision | Recall | f1-score |
 |:-----------:|:---------:|:-------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [Dynamic weight-generating network with DenseNet-121](https://drive.google.com/file/d/1mHkrJAbGcwyt3P3oGzKoBOCKLWtD9U6p/view?usp=sharing) |   32.84M    | 14.13G | 174.19M | 2.65 G | 65.78% | 69.79% | 65.78% | 65.47% |\
@@ -23,7 +23,7 @@
 #Q2-2:
 [Checkpoints - RRDB_RNN](https://drive.google.com/file/d/1qGkMu-ePu2W2EttpEi3Em9R37So3hqLg/view?usp=sharing)
 
-**Performance and Complexity comparison on mini-ImageNet without pretraining on ImageNet-1K. 
+**Performance and Complexity comparison on mini-ImageNet (Testing-set) without pretraining on ImageNet-1K. 
 Mulit-Adds are calculated for a 3x224x224 input.**
 | Model | Params | Multi-Adds | Forward | FLOPs | Accuracy | Precision | Recall | f1-score |
 |:-----------:|:---------:|:-------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
