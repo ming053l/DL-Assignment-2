@@ -14,17 +14,19 @@
 
 # Dynamic weight-generating network with DenseNet-121
 <img src=".\dw.png" width="700"/> 
+
 # Dynamic weight-generating network with DenseNet-121 (Channel Shuffling Augmentation)
 <img src=".\dw_noaug.png" width="700"/>
+
 ## Task2 - Designing a Convolution Module for Variable Input Channels
 
-#Baseline:
+# Baseline:
 [Checkpoints - ResNet34](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
 
-#Q2-1:
+# Q2-1:
 [Checkpoints - RRDB](https://drive.google.com/file/d/1Wa5fsheFg95qoBxrXBLmUT4KASdz5yjs/view?usp=sharing)
 
-#Q2-2:
+# Q2-2:
 [Checkpoints - RRDB_RNN](https://drive.google.com/file/d/1qGkMu-ePu2W2EttpEi3Em9R37So3hqLg/view?usp=sharing)
 
 **Performance and Complexity comparison on mini-ImageNet (Testing-set) without pretraining on ImageNet-1K. 
@@ -37,8 +39,10 @@ Mulit-Adds are calculated for a 3x224x224 input.**
 
 # ResNet34
 <img src=".\RESNET.png" width="700"/> 
+
 # RRDB
 <img src=".\RRDB.png" width="700"/> 
+
 # RRDB-RNN
 <img src=".\RRDBRNN.png" width="700"/>
 
