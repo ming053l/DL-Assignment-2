@@ -1,4 +1,6 @@
-# DL-Assignment-2
+# Dynamic Weight Generation Conv / RRDB-RNN
+
+The pytorch implementation of Dynamic Weight Generation Convolution / RRDB-RNN for Deep Learning Assignment II in NCKU.
 
 [[Assignment]](https://drive.google.com/file/d/1SWX1KvwGB-Kphk4GiIEB0ibmytCk3HK9/view?usp=sharing) [[Report]](https://drive.google.com/file/d/14Ppg4bplJ4vF4cHtvGvWguA-b2pV_-Se/view?usp=sharing)
 
