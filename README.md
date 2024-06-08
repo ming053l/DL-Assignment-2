@@ -12,7 +12,7 @@ Design a special convolutional module that is spatial size invariant and can han
 
 [Checkpoints - DWG with DenseNet-121](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
 
-[Checkpoints - DWG with DenseNet-121 (Channel Shuffling Augmentation](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
+[Checkpoints - DWG with DenseNet-121 (Channel Shuffling Augmentation)](https://drive.google.com/file/d/17uau_f-7IzebhZIz8jcXrah0atqQPPna/view?usp=sharing)
 
 **Performance and Complexity comparison on mini-ImageNet (Testing-set). Mulit-Adds are calculated for a 3x224x224 input.**
 | Model | Params | Multi-Adds | Forward | FLOPs | Accuracy | Precision | Recall | f1-score |
