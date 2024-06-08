@@ -13,9 +13,7 @@
 | [Dynamic weight-generating network with DenseNet-121 (Channel Shuffling Augmentation)](https://drive.google.com/file/d/1t97D2Pwd6Krz_G9l0GUDrSo_1ZRD0CJZ/view?usp=sharing) |  32.84M  | 14.13G | 174.19M | 2.65 G | 76.00% | 76.61% | 76.00% | 75.20% |
 
 
-<img src=".\dw.png" width="500"/>
-
-<img src=".\dw_noaug.png" width="500"/>
+<img src=".\dw.png" width="700"/> <img src=".\dw_noaug.png" width="700"/>
 ## Task2 - Designing a Convolution Module for Variable Input Channels
 
 #Baseline:
